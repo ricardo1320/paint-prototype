@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Paint prototype</title>
+  </head>
+
+  <body>
+    <canvas id="area_dibujo" width="1000" height="500"></canvas>
+
+    <!-- Paleta de colores a elegir para dibujar -->
+    <label for="select_color" class="paleta">Choose a color:</label>
+    <input type="color" id="select_color" class="color">
+
+    <!-- Boton para borrar trazos -->
+    <input type="button" value="Eraser" id="eraser" class="eraser">
+    <input type="button" id="clear_button" value="Clear all" class="clear">
+
+    <!-- Selector de tamaño de lapiz o borrador-->
+    <label for="sizePencil" class="rangeLabel">Size:</label>
+    <input type="range" id="sizePencil" min="1" max="9" value="3" step="any" class="range">
+
+    <p>To draw:
+      <ul>
+        <li>
+          Press and move with the arrow symbols on keyboard.
+          (Define initial point pressing the mouse, by default at center)
+        </li>
+        <li>
+          Or, just press and move with the mouse.
+        </li>
+      </ul>
+    </p>
+    <script src="paintApp.js"></script>
+  </body>
+</html>

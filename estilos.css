@@ -1,0 +1,39 @@
+body{
+  background-color: #D7DBDD;
+}
+canvas{
+  border: 2px solid black;
+  background-color: white;
+}
+.paleta{
+  position: fixed;
+  right: 150px;
+  top: 50px;
+}
+.color{
+  position: fixed;
+  right: 150px;
+  top: 80px;
+}
+.rangeLabel{
+  position: fixed;
+  right: 215px;
+  top: 380px;
+}
+.range{
+  position: fixed;
+  right: 120px;
+  top: 400px;
+}
+.eraser{
+  position: fixed;
+  right: 150px;
+  top: 440px;
+}
+.clear{
+  position: fixed;
+  right: 100px;
+  top: 480px;
+  width: 150px;
+  height: 30px;
+}
